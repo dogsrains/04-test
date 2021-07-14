@@ -1,0 +1,135 @@
+#include <iostream>
+#include <string>  //字符串的头文件
+#include <ctime>
+#include "swap.h"
+#include "max.h"
+
+using namespace std;
+//定义一个加法函数
+//函数定义时，num1与num2是形式参数，无实际值
+//a,b,a为实际参数，当调用函数的时候，实际参数的值会传给形式参数
+
+//int add(int num1,int num2)
+//{
+//	int sum = num1 + num2;
+//	return sum;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int b = 10;
+//	int c = add(a, b);
+//	cout << "c=" << c << endl;
+//
+//	a = 100; b = 300;
+//	c = add(a, b);
+//	cout << "c=" << c << endl;
+//}
+
+
+
+//函数的形参发生改变，不影响实参
+/*void swap(int num1, int num2)
+{
+	cout << "交换前" << endl;
+	cout << "num1=" <<num1<< endl;
+	cout << "num2=" << num2<<endl;
+
+	int temp = num1;
+	num1 = num2;
+	num2 = temp;
+
+	cout << "交换后" << endl;
+	cout << "num1=" << num1<<endl;
+	cout << "num2=" << num2<<endl;
+
+}
+int main()
+{
+	int a = 2; int b = 5;
+	swap(a, b);
+}
+
+
+//函数常见样式 1、无参无返  2、有参无返 3、无参有返 4、有参有返
+void test01()
+{
+	cout << "this is test01=" << endl;
+}
+void test02(int a)
+{
+	cout << "this is test02=" << a <<  endl;
+}
+
+int test03()
+{
+	cout << "this is test03="  << endl;
+	return 1000;
+}
+int test04(int a)
+{
+	cout << "this is test04:" <<"a=" << a << endl;
+	return 2;
+}
+
+int main()
+{
+	//无参无返函数调用
+	test01();
+	//有参无返函数调用
+	test02(100);
+	//无参有返函数调用
+	int num1=test03();
+	cout << "num1=" << num1 << endl;
+	//有参有返
+	int num2 = test04(10000);
+	cout << "num2=" << num2<< endl;
+
+
+}
+//函数实现数值的交换
+int max(int a, int b)
+{
+	return a > b ? a : b;
+}
+int main()
+
+{
+	int a = 10; int b = 20;
+	int c = max(a, b);
+	cout << "较大者为：" << c << endl;
+}
+
+void swap(int a, int b);  //函数的声明
+void swap(int a, int b)
+{
+	cout << "输出a的值为：" << a << endl;
+	cout << "输出b的值为：" << b << endl;
+	int temp = a;
+	a = b;
+	b = temp;
+	cout << "交换后a的值为：" << a << endl;
+	cout << "交换后b的值为：" << b << endl;
+
+}
+
+int  main()
+{
+	int a = 10; int b = 20;
+	swap(a, b);
+
+
+
+}
+
+int main()
+
+{
+	int a = 10; int b = 20;
+	int c = max(a, b);
+	cout << "较大者为：" << c << endl;
+}*/
+
+//指针的定义：数据类型*指针变量名
+//指针记录数据的地址
+//解引用
